@@ -4,7 +4,7 @@ pipeline {
     cron('*/1 * * * *')
   }
   stages {
-    stage('Running Python script') {
+    stage('Run Python script') {
       steps {
         bat 'python my_script.py'
       }
